@@ -5,10 +5,11 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
+   <%= params %>
+ <% params.each do |key, value| %>
+ <p> <%= "#{key}: #{value}" %></p>
+ <% end %>
 
 
  </body>
 </html>
-
-
