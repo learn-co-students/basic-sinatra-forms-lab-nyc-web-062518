@@ -6,9 +6,17 @@
  </head>
  <body>
    <%= params %>
- <% params.each do |key, value| %>
- <p> <%= "#{key}: #{value}" %></p>
- <% end %>
+   <p>Team Name: <%= params[:name] %></p>
+   <p>Coach: <%= params[:coach] %></p>
+  <p>Point Guard: <%= params[:pg] %></p>
+  <p>Shooting Guard: <%= params[:sg] %></p>
+  <p>Power Forward: <%= params[:pf] %></p>
+  <p>Small Forward: <%= params[:sf] %></p>
+  <p>Center: <%= params[:c] %></p>
+
+ <!-- <% params.each do |key, value| %> -->
+ <!-- <p> <%= "#{key}: #{value}" %></p> -->
+ <!-- <% end %> -->
 
 
  </body>
